@@ -3,8 +3,8 @@ spring:
     profiles:
         active: dev # 激活开发环境配置
         
-----
-server:
+---
+server: 
     port: 8001
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
